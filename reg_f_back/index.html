@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegstrationForm</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form class="Form" action="connect.php" method="post">
+        <div class="main">
+            <h2>Regstration Form</h2>
+            <br>
+            <div class="data">
+                <label for="Fname" class="Label">First Name</label>
+                <input type="text" name="firstname" id="Fname" class="input" required>
+            </div>
+
+            <div class="data">
+                <label for="Lname" class="Label">Last Name</label>
+                <input type="text" name="lastname" id="Lname" class="input" required>
+            </div>
+
+            <div class="data">
+                <label for="Email" class="Label">Email</label>
+                <input type="email" name="email" id="Email" class="input" required>
+            </div>
+                    <br><br>
+
+            <div class="data">
+                <h2>Gender</h2>
+                <br>
+                <label for="male" class="Label">Male</label>
+                <input type="radio" id="male" name="gender" class="gen"  value="m" required>
+
+                <label for="female" class="Label">Female</label>
+                <input type="radio" id="female" name="gender" class="gen" value="f" required>
+            </div>
+                <br>
+                <div class="data">
+                    <h2>Knowing Languages</h2>
+                    <br>
+                    <label for="Hindi" class="Label">Hindi</label>
+                    <input type="checkbox" id="Hindi" value="hindi" class="put" name="knowinglanguages">
+
+                    <label for="English"class="Label">English</label>
+                    <input type="checkbox" id="English" value="english" class="put">
+
+                    <label for="sanskrit" class="Label">Sanskrit</label>
+                    <input type="checkbox" id="sanskrit" value="sanskrit" class="put">
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Bhar dia to daba do" name="submit" id="sub" class="button">
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Reset" name="submit" id="sub" class="button">
+                </div>
+
+            </div>
+       </div>
+    </form>
+</body>
+</html>
